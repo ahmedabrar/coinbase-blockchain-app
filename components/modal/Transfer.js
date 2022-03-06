@@ -43,7 +43,7 @@ const Transfer = ({
         recipient,
         amount.toString().concat("000000000000000000")
       );
-      setAction("transferred");
+      setAction("transferredd");
     } else {
       console.error("missing data");
     }
